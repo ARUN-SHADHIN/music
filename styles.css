@@ -1,0 +1,428 @@
+*{
+    margin:0px;
+    padding:0px;
+    background-color: #000033;
+    color:white;
+}
+img{
+    
+    height:35px;
+    width:auto;
+    border-radius: 40%;
+    padding-top: 0px;
+    background-color: #000033;
+}
+header ul li img{
+    height:50px;
+    margin-top:0px;
+    padding-top: 0px;
+    margin-bottom: 40px;
+}
+
+.nav-links a{
+    color:whitesmoke;
+    text-decoration: none;
+}
+header{
+    height:70px;
+    width: 100%;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    position:sticky;
+}
+.nav-links li{
+    text-decoration: none;
+    list-style:none;
+    display: inline-block;
+}
+.nav-links  h4{
+    font-weight: bold;
+    text-decoration: none;
+    padding-top: 20px;
+}
+.nav-links h5{
+    color:floralwhite;
+    margin-left:50px;
+    font-size: 1.0rem;
+
+}
+.btn{
+    background-color:#00004d;
+    border-radius: 10px;
+}
+.btn img{
+    height:25px;
+}
+.btn input{
+    border-radius:0px;
+    background-color: #00004d;
+    border: #00004d;
+    margin-left:5px;
+    
+}
+.btn input:visited{
+    border-radius: 0px;
+    background-color: aliceblue;
+}
+header div{
+    padding-right: 30px;
+    margin-left: 50px;
+}
+.slide-show{
+    display:inline-block;
+    justify-content: center;
+    height:200px;
+    width:400px;
+    border-radius: 1px;
+    padding-left:100px;
+    margin-left: 100px;
+    animation: slide1 10s infinite;
+    background-repeat: no-repeat;
+    
+    background-color: #000033;
+}
+
+@keyframes slide1 {
+    0%{
+        background-image: url(frame/adnan.jpeg);
+    }
+    25%{
+        background: url(frame/images\ \(2\).jpeg);
+    }
+    50%{
+        background: url(frame/adnan.jpeg);
+    }
+    70%{
+        background: url(frame/images\ \(1\).jpeg);
+    }
+    100%{
+        background-image: url(frame/images.jpeg);
+    }
+    
+}
+
+.containers{
+    background-color: #000033;
+    display:flex;
+    justify-content: space-between;
+    margin-left: 0px 20px;
+   
+}
+.containers .first{
+    display:inline-block;
+    width:70%;
+    padding-left: 60px;
+    padding-right: 0px;
+}
+.containers .second{
+    display: inline-block;
+    flex-direction: row;
+    justify-content: space-between;
+    color: beige;
+    padding-right:0px;
+    width:40%;
+    border:2px;
+    background-color:#000033;
+}
+.containers .second div{
+    display:inline-block;
+    
+    margin-left: 30px;
+    margin-right: 30px;
+    padding-right: 0px;
+}
+.playlist-option{
+    display: inline-block;
+    padding-right: 0px;
+    padding-left:150px;
+    color:white; 
+    border-radius: 50%;
+    
+}
+.playlist-option select{
+    background-color: #000033;
+    color: aliceblue;
+    height:25px;
+    width:100px;
+    font-size: 0.6rem;
+    border:none;
+}
+.contained tr th select{
+    padding-top: 0px;
+    background-color: #000033;
+    color: aliceblue;
+    height:25px;
+    width:100px;
+    font-size: 0.7rem;
+    border:none;
+}
+.playlist-option select option{
+    margin: 25px;
+}
+.playlist{
+    padding-left:0px ;
+    margin-block: 0px 80px;
+    margin:0px 100px;
+    font-size: large;
+}
+select{
+    display: inline-block;
+    color: aliceblue;
+    padding-left: 0px;
+    margin-left: 0px;
+    border: none;
+}
+.relase{
+
+    border:5px;
+    height:auto;
+    width:400px;
+    display: flex;
+    flex-shrink: initial;
+    align-items: flex-start;
+    justify-content:center;
+    padding-bottom: 0px;
+    
+}
+
+div .contained{
+    height: 150px;
+    width: 200px;
+    margin:10px 10px;
+    background-color:#000033;
+    color: aliceblue;
+}
+div .contained img{
+    height:70px;
+    width: 90px;
+    border-radius:0px;
+}
+div .contained img:hover{
+    color:aliceblue;
+}
+.table-contained{
+    padding-left:110px;
+    width: auto;
+}
+.contained h4{
+    font-size: 0.9rem;
+    padding-left: 0px;
+}
+.contained select option{
+    padding-top: 0px;
+}
+.first h2{
+    font-size: 1.5rem;
+    padding-left: 0px;
+}
+
+option{
+    background-color: aliceblue;
+    color:black;
+     margin:0px 10px;
+}
+
+.artist{
+    display: flex;
+    width:100%;
+    flex-direction: row;
+}
+.artist img{
+    border-radius: 0px;
+    height:100px;
+    width: 100px;
+    margin:0px 5px;
+    border-radius: 50%;
+}
+.artist div{
+    border-radius: 50%;
+}
+
+@keyframes play {
+     img{
+        background-image: url("frame/adnan.jpeg");
+    }
+    
+}
+i{
+    display: flex;
+    margin-left: 200px;
+    font-size: 60px;
+}
+.second{
+    height:84vh;
+    width:auto;
+    white-space: nowrap;
+    overflow-y: scroll;
+    position:sticky;
+}
+.first{
+    display: inline-flex;
+    position:sticky;
+    padding-left: 0px;
+    padding-top: 50px;
+}
+.Queue-playlist tr th {
+    margin:10px;
+    padding:10px;
+}
+.Queue-playlist tr th p{
+    text-align: center;
+    color: aqua;
+    font-size: 0.8rem;
+}
+.Queue-playlist tr th img{
+    height: 40px;
+    width: 60px;
+    border-radius: 0px;
+}
+.notification{
+    margin-left:0px;
+    margin-right: 5px;
+}
+.album-zone{
+    height:50px;
+    width:auto;
+    display: flex;
+    flex-direction: row;
+    border-radius: 10px;
+
+}
+.album-zone img{
+    height:80px;
+    width:80px;
+    border-radius: 40%;
+    margin:0px 10px;
+    margin-top: 10px;
+}
+.album-type{
+    height:120px;
+    width:auto;
+    display: flex;
+    padding-top: 50px;
+}
+.album-type img{
+    height:120px;
+    width: 200px;
+    border-radius: 0px;
+    margin:0px 5px;
+    transition: height width 2s ease-out;
+    position: relative;
+}
+.album-type img:hover{
+    height: 100px;
+    width: 200px;;
+}
+
+
+.latest-english{
+    display: flex;
+    font-size: small;
+    text-align: center;
+}
+.latest-english div img{
+    height:90px;
+    width:90px;
+    border-radius: 0px; margin-left: 9px;
+}
+.latest-Hindi{
+    display: flex;
+    font-size: small;
+    text-align: center;
+}
+.latest-Hindi div img{
+    height:90px;
+    width:90px;
+    border-radius: 0px; margin-left: 9px;
+}
+.title{
+    text-align: center;
+    font-weight: 100;
+}
+
+img:hover{
+    height:90px;
+    width:90px;
+}
+a img:hover{
+    height:90px;
+    width:90px;
+}
+
+.Queue-playlist tr th a img:hover{
+    height:65px;
+    width:65px;
+}
+.latest-english div img:hover{
+    height:120px;
+    width:120px;
+    cursor: pointer;
+}
+
+.latest-Hindi div img:hover{
+    height:120px;
+    width:120px;
+    cursor: pointer;
+}
+ .inner-icon{
+    position: absolute;
+    margin:0px;
+    height: 20px;
+    width: 50px;
+    padding-left: 20px;
+    margin-top: 10px;
+    display: none;
+
+    
+}
+.inner-icon:hover{
+    background-image: url(frame/album/album1.jpeg);
+}
+.music{
+    display: flex;
+    height:50px;
+    width:100%;
+    background-color:slategray;
+    position:fixed;
+    top:545px;
+
+  
+}
+audio{
+    height: 50px;
+    width:25%;
+    position:-webkit-sticky;
+    border-radius: 40px;
+    margin-left: 50px;
+    background-color: slategray;
+}
+.music img{
+    height: 100%;
+    width: 50px;
+    border-radius: 0px;
+    margin-left: 0px;
+}
+.music i{
+    background-color:slategray;
+    padding-left: 10px;
+    margin:5px;
+    text-align: center;
+    height: 50px;
+    margin-top: 5px;;
+}
+.music i:hover{
+    background-color: firebrick;
+    cursor: pointer;
+}
+.first{
+    height:75vh;   
+    position: sticky;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+}
+::-webkit-scrollbar {
+    display: none;
+}
